@@ -1,0 +1,9 @@
+# Config for Emotion Classifier App – Tweak for envs (e.g., higher res on GPU)
+# Finalized Sep 27, 2025: Supports video/webcam with auto-resize for large inputs
+model_path: models/best_model.keras
+face_cascade_path: haarcascade_frontalface_default.xml
+confidence_threshold: 0.5
+img_size: [48, 48]
+output_width: 640  # Display width for resized frames (prevents oversized windows)
+output_height: 480  # Display height
+# Optional: fps_update_interval: 30  # Frames between FPS calcs

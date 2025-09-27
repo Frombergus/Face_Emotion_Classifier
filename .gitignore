@@ -1,0 +1,59 @@
+# Byte-compiled / C extensions
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Models & Data (large files – commit best_model.keras manually if <100MB)
+models/*.keras
+data/raw/
+data/processed/
+
+# Screenshots/Videos (large media – commit samples only)
+screenshots/*.mp4
+screenshots/*.avi
+!screenshots/*.png  # Keep images for README
+
+# Env
+.env
+.venv/
+env/
+ENV/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+.spyproject
+
+# Finalized Sep 27, 2025: Keeps repo <100MB for fast clones
